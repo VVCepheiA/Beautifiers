@@ -1,0 +1,23 @@
+void lis(int reg, int num){cout << "lis $" << reg << endl << ".word " << num << endl;}
+void lis(int reg, string str){cout << "lis $" << reg << endl << ".word " << str << endl;}
+void add(int d, int s, int t){cout << "add $" << d << ", $" << s << ", $" << t << endl;}
+void sub(int d, int s, int t){cout << "sub $" << d << ", $" << s << ", $" << t << endl;}
+void mult(int s, int t){cout << "mult $" << s << ", $" << t << endl;}
+void multu(int s, int t){cout << "multu $" << s << ", $" << t << endl;}
+void divide(int s, int t){cout << "div $" << s << ", $" << t << endl;}
+void divu(int s, int t){cout << "divu $" << s << ", $" << t << endl;}
+void mfhi (int d){cout << "mfhi $" << d << endl;}
+void mflo (int d){cout << "mflo $" << d << endl;}
+void sw(int t, int i, int s){cout << "sw $" << t << "," << i << "($" << s << ")" << endl;}
+void lw(int t, int i, int s){cout << "lw $" << t << "," << i << "($" << s << ")" << endl;}
+void slt(int d, int s, int t){cout << "slt $" << d << ", $" << s << ", $" << t << endl;}
+void sltu(int d, int s, int t){cout << "sltu $" << d << ", $" << s << ", $" << t << endl;}
+void beq(int s, int t, int i){cout << "beq $" << s << ", $" << t << ", " << i << endl;}
+void bne(int s, int t, int i){cout << "bne $" << s << ", $" << t << ", " << i << endl;}
+void jr(int s){cout << "jr $" << s << endl;}
+void jalr(int s){cout << "jalr $" << s << endl;}
+void o(string str){cout << str << endl;}
+
+int main(){
+	
+}
