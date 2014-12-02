@@ -2,10 +2,11 @@ Beautifiers
 ===========
 
 MIPS Beautifiers
-A simple setup that makes assembly language MIPS(https://www.student.cs.uwaterloo.ca/~cs241/mips/mipsref.pdf) more beautiful.
 ===========
+A simple setup that makes assembly language MIPS(https://www.student.cs.uwaterloo.ca/~cs241/mips/mipsref.pdf) more beautiful.
 
 Notes Beautifiers
+===========
 A simple setup that makes your md Notes more beautiful.
 
 How to use:
